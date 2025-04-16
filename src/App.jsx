@@ -38,7 +38,7 @@ function App() {
       <About />
 
       </div>
-      <div className='lg:pb-0 md:pb-0 pb-32'>
+      <div className='lg:pb-0 md:pb-0 pb-32 '>
       <Tabs/>
 
       </div>
