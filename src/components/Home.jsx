@@ -51,7 +51,7 @@ function Home() {
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            href='/Talha.cv.pdf'
+            href='/TalhaResume.pdf'
             download
             className='border px-6 py-3 md:px-8 lg:px-12 md:py-3 lg:py-4 text-md hover:bg-[#E50050] lg:text-xl bg-[#012B45] border-none rounded-full text-white font-serif'
             

@@ -1,6 +1,6 @@
 {
   "name": "portfolio-2",
-  "homepage": "https://xampsak.github.io/talha-react/",
+  "homepage": "https://xampsaks.github.io/talha-portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,6 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
