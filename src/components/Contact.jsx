@@ -21,7 +21,10 @@ function Contact() {
                 It's all about the humans behind a brand and those experiencing it. We're right there in the middle, making things happen.
               </p>
 
-              <form className="space-y-4">
+              <form
+               action="https://formspree.io/f/mqaqpbrr"
+               method="POST"
+               className="space-y-4">
                 <input className="w-full h-12 px-3 rounded-sm text-black" type="text" placeholder="Name" />
                 
                 <div className="flex flex-col md:flex-row gap-4">
@@ -30,7 +33,6 @@ function Contact() {
                 </div>
 
                 <textarea className="w-full h-32 px-3 py-2 rounded-sm text-black resize-none" placeholder="Tell Us About Your Project"></textarea>
-
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -40,8 +42,9 @@ function Contact() {
                 </motion.button>
               </form>
             </motion.div>
+            <a href="https://formsubmit.co/el/{talhard5994@gmail.com}/?email=customer@company.com" target="_blank">Email us</a>
 
-            {/* Right Section - Contact Details */}
+            
             <motion.div
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
@@ -50,8 +53,8 @@ function Contact() {
             >
               {[ 
                 { icon: emailIcon, title: "Email", details: "talhard5994@gmail.com", bg: "bg-[#00c0ff]" },
-                { icon: locationIcon, title: "Address", details: "Zarar Shahid Road", bg: "bg-[#ff014f]" },
-                { icon: phoneIcon, title: "Phone", details: ["+92 324 4905994", "+92 319 8618613"], bg: "bg-[#edb846]" }
+                { icon: locationIcon, title: "Address", details: "Lahore Cantt", bg: "bg-[#ff014f]" },
+                { icon: phoneIcon, title: "Phone", details: ["+92 324 4905994", ""], bg: "bg-[#edb846]" }
               ].map((item, index) => (
                 <motion.div
                   key={index}

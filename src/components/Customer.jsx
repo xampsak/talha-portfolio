@@ -7,7 +7,7 @@ function Customer() {
     <div className="flex justify-center items-center  w-full">
       <div className="w-[90%] md:w-[80%] h-auto">
         <div className="flex flex-col lg:flex-row justify-center items-center bg-[#013253] font-serif w-full p-6 space-y-6 lg:space-y-0">
-          {/* Image Section with Animation */}
+         
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
@@ -21,7 +21,7 @@ function Customer() {
             />
           </motion.div>
 
-          {/* Text Section with Animation */}
+         
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}

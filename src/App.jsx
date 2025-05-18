@@ -8,6 +8,7 @@ import Navbar from './components/Navbar'
 import Customer from './components/Customer'
 import Contact from './components/Contact'
 import Tabs from './components/Tabs'
+import Footer from './components/Footer'
 // import Whatsapp from './components/Whatsapp'
 
 
@@ -44,6 +45,8 @@ function App() {
       </div>
       <Customer/>
       <Contact/>
+
+      <Footer/>
     </>
   );
 }

@@ -13,7 +13,6 @@ function About() {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        {/* Top Section */}
         <motion.div 
           className="flex flex-col md:flex-row justify-center"
           initial={{ opacity: 0, y: 50 }}
@@ -53,14 +52,14 @@ function About() {
           </div>
         </motion.div>
 
-        {/* Bottom Section */}
+        
         <motion.div 
           className="mt-12 flex flex-col md:flex-row justify-center items-center gap-10"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 1 }}
         >
-          {/* WordPress Developer Card */}
+          
           <motion.div 
             className="flex items-center gap-4 bg-[#012B45] p-4 rounded-xl shadow-md"
             whileHover={{ scale: 1.05 }}
@@ -73,7 +72,7 @@ function About() {
             </div>
           </motion.div>
 
-          {/* HTML Developer Card */}
+         
           <motion.div 
             className="flex items-center gap-4 bg-[#012B45] p-4 rounded-xl shadow-md"
             whileHover={{ scale: 1.05 }}

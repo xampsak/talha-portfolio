@@ -9,10 +9,10 @@ function Recent() {
   const [fullImage, setFullImage] = useState(null);
 
   const cards = [
-    { id: 1, img: red1, title: "Web Development" },
-    { id: 2, img: red2, title: "Web Development" },
-    { id: 3, img: red3, title: "Web Development" },
-    { id: 4, img: red4, title: "Web Development" },
+    { id: 1, img: red1, title: "Shopify Development" },
+    { id: 2, img: red2, title: "Worpress Development" },
+    { id: 3, img: red3, title: "Wordpress Development" },
+    { id: 4, img: red4, title: "React Development" },
   ];
 
   return (
@@ -40,7 +40,7 @@ function Recent() {
             </div>
           </div>
 
-          {/* Portfolio Grid */}
+          
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 md:gap-10 lg:gap-24 mt-12">
             {cards.map((card) => (
               <div
@@ -49,23 +49,23 @@ function Recent() {
                 onMouseEnter={() => setHovered(card.id)}
                 onMouseLeave={() => setHovered(null)}
               >
-                {/* Background Image */}
+                
                 <img
                   src={card.img}
                   alt={card.title}
                   className="w-full h-full object-cover transition-transform duration-300 transform hover:scale-105"
                 />
 
-                {/* Overlay Text */}
+                
                 <div
                   className={`absolute left-0 w-full bg-[#001A33] text-white p-4 transition-all duration-1000 ${
                     hovered === card.id ? "bottom-0" : "bottom-[-100px]"
                   }`}
                 >
-                  <p className="text-xs sm:text-sm">Components</p>
+                  <p className="text-xs sm:text-sm"></p>
                   <h3 className="text-base sm:text-lg font-bold">{card.title}</h3>
                   <div
-                    className="absolute right-4 bottom-4 bg-red-500 p-2 rounded-full cursor-pointer"
+                    className="absolute right-4 bottom-3 bg-red-500 p-2 rounded-full cursor-pointer"
                     onClick={() => setFullImage(card.img)}
                   >
                     ➜

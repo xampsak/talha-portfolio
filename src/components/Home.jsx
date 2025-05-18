@@ -7,7 +7,7 @@ import { section } from 'framer-motion/client';
 function Home() {
   return (
     <section id='home' className='section'>
-      <div className='flex overflow-hidden justify-center pb-28 md:pb-0 lg:pb-0   items-center h-screen  w-full '>
+      <div className='flex  justify-center pb-28 md:pb-0 lg:pb-0   items-center h-screen  w-full '>
 
         
         <motion.div 
@@ -44,7 +44,7 @@ function Home() {
             transition={{ delay: 0.4, duration: 0.8 }}
           
           >
-            Web Developer
+            Frontend Developer
           </motion.h1>
 
           
